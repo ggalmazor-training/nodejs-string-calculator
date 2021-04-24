@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-string-calculator",
+  "version": "1.0.0",
+  "description": "String Calculator Kata in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggalmazor-training/nodejs-string-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggalmazor-training/nodejs-string-calculator/issues"
+  },
+  "homepage": "https://github.com/ggalmazor-training/nodejs-string-calculator#readme"
+}
