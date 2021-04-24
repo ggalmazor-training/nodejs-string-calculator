@@ -6,4 +6,5 @@ test('An empty string produces 0', () => {
 
 test('A string with a number produces that number', () => {
     expect(sc("1")).toBe(1);
+    expect(sc("11")).toBe(11);
 })
