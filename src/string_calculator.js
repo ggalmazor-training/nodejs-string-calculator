@@ -1,3 +1,6 @@
 export default input => {
-    return input === "" ? 0 : 1;
+    if (input === "")
+      return 0;
+
+    return 1;
 }
