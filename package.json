@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "String Calculator Kata in NodeJS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ggalmazor-training/nodejs-string-calculator/issues"
   },
-  "homepage": "https://github.com/ggalmazor-training/nodejs-string-calculator#readme"
+  "homepage": "https://github.com/ggalmazor-training/nodejs-string-calculator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
