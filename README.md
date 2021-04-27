@@ -24,7 +24,8 @@ Please, try to think the smallest increments you can work on:
 ## Preparing your environment
 
 1. Install [asdf](https://asdf-vm.com/)
-2. Fork [this repo](https://github.com/ggalmazor-training/nodejs-string-calculator), clone it somewhere in your computer, and run `asdf install` and `npm install` where you cloned it.
+2. Add the NodeJS plugin to asdf with `asdf plugin add nodejs`   
+3. Fork [this repo](https://github.com/ggalmazor-training/nodejs-string-calculator), clone it somewhere in your computer, and run `asdf install` and `npm install` where you cloned it.
 
    Example:
 
@@ -60,7 +61,7 @@ Please, try to think the smallest increments you can work on:
    found 0 vulnerabilities
    ```
 
-3. Test your environment by running the tests with `npm run test`
+4. Test your environment by running the tests with `npm run test`
 
    Example:
 
