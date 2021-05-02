@@ -5,11 +5,7 @@ export default input => {
   if (input.indexOf(',') === -1)
     return parseInt(input);
 
-  const partA = input[0];
-  const partB = input[2];
   const parts = input.split(',');
-  // parts.push(partA);
-  // parts.push(partB);
 
   const numbers = parts.map(part => parseInt(part, 10))
 
