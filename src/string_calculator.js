@@ -13,8 +13,7 @@ export default input => {
   }
 
   const separator = input[2];
-  const body = input.substr(4);
-  let normalizedInput = body;
+  let normalizedInput = input.substr(4);
   normalizedInput = normalizedInput.replaceAll(separator, ",");
   normalizedInput = normalizedInput.replaceAll("\n", ",");
   const parts = normalizedInput.split(',');
