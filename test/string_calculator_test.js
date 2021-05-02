@@ -11,5 +11,4 @@ test('A string with a number produces that number', () => {
 
 test('A string with numbers separated by commas produce the sum of those numbers', () => {
     expect(sc("1,2")).toBe(3);
-    expect(sc("11,22")).toBe(33);
 });
