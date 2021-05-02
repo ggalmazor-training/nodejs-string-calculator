@@ -16,7 +16,7 @@ export default input => {
   const body = input.substr(4);
   let normalizedInput = body;
   normalizedInput = normalizedInput.replaceAll(separator, ",");
-  // normalizedInput = normalizedInput.replaceAll("\n", ",");
+  normalizedInput = normalizedInput.replaceAll("\n", ",");
   const parts = normalizedInput.split(',');
   const numbers = parts.map(part => parseInt(part, 10))
   return numbers.reduce((a, b) => a + b, 0);
