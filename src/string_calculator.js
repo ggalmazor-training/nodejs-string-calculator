@@ -14,5 +14,9 @@ export default input => {
 
   const parts = normalizedInput.split(',');
   const numbers = parts.map(part => parseInt(part, 10))
+
+  if (numbers.some(number => number < 0))
+    throw new Error();
+
   return numbers.reduce((a, b) => a + b, 0);
 }
