@@ -15,8 +15,9 @@ export default input => {
   const parts = normalizedInput.split(',');
   const numbers = parts.map(part => parseInt(part, 10))
 
-  if (numbers.some(number => number < 0))
-    throw new Error();
+  let negativeNumbers = numbers.filter(number => number < 0);
+  if (negativeNumbers.length > 0)
+    throw new Error(`Negative numbers are not supported: ${negativeNumbers.join(", ")}`);
 
   return numbers.reduce((a, b) => a + b, 0);
 }
