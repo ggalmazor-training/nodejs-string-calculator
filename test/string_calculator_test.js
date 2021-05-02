@@ -21,3 +21,7 @@ test('A custom delimited can be defined', () => {
     expect(sc("//;\n1;2")).toBe(3);
     expect(sc("//;\n1;2\n3,4")).toBe(10);
 })
+
+test("Fails when negative numbers are provided", () => {
+    expect(() => sc("-1,2")).toThrow()
+})
