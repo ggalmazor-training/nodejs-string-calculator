@@ -12,8 +12,6 @@ export default input => {
   parts.push(partB);
 
   const numbers = parts.map(part => parseInt(part, 10))
-  const numberA = parseInt(partA);
-  const numberB = parseInt(partB);
 
   return numbers.reduce((a, b) => a + b, 0);
 }
