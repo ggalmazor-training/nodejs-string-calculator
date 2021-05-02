@@ -8,5 +8,8 @@ export default input => {
   const partA = input[0];
   const partB = input[2];
 
-  return parseInt(partA) + parseInt(partB);
+  const numberA = parseInt(partA);
+  const numberB = parseInt(partB);
+
+  return numberA + numberB;
 }
