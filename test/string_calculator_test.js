@@ -12,3 +12,7 @@ test('A string with a number produces that number', () => {
 test('A string with numbers separated by commas produce the sum of those numbers', () => {
     expect(sc("1,2")).toBe(3);
 });
+
+test('Numbers can also be separated by the newline character', () => {
+    expect(sc("1\n2")).toBe(3);
+});
