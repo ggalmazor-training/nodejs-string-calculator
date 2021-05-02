@@ -25,3 +25,7 @@ test('A custom delimited can be defined', () => {
 test("Fails when negative numbers are provided", () => {
     expect(() => sc("-1,2")).toThrow()
 })
+
+test("Failure due to negatives includes a message listing them", () => {
+    expect(() => sc("-1,2")).toThrow(/-1/)
+})
