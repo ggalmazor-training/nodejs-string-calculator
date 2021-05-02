@@ -19,5 +19,5 @@ test('Numbers can also be separated by the newline character', () => {
 
 test('A custom delimited can be defined', () => {
     expect(sc("//;\n1;2")).toBe(3);
-
+    expect(sc("//;\n1;2\n3,4")).toBe(10);
 })
