@@ -11,7 +11,7 @@ Please, try to think the smallest increments you can work on:
 - An input string with more than one number separated by commas must produce their sum
   Example: `"1,2"` must produce `3`
 - Now numbers can be separated also by the newline character
-  Example: `"1\n2` must produce `3`
+  Example: `"1\n2"` must produce `3`
 - Now a custom delimiter can be defined by prefixing the input string with `//<DELIMITER>\n<NUMBERS>`
   Example: `"//;\n1;2"` must produce `3`
 - Now the program needs to fail with a message when there's a negative number in the input string. The error message must include the list of offending numbers
