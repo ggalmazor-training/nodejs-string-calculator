@@ -1,6 +1,11 @@
 # String Calculator Kata in NodeJS
 
-Your goal is to create a program that reads numbers in a string and produce their sum.
+Your goal is to create a program that reads numbers in a string and produce their sum following the TDD flow:
+1. Write a test that fails
+2. Make the most straightforward change to make the test pass
+3. Optionally, refactor your code
+
+On every step, try hard to make the smallest change possible. The goal is not to complete the list of features but deliberate practice of the best programming practices you know of.
 
 ## Sequence of features to implement
 
